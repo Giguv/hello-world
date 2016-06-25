@@ -1,4 +1,4 @@
-def simple_fractions(num):
+def simple_factors(num):
 	arr = []
 	i = 2
 	numorg = num
@@ -16,7 +16,7 @@ def simple_fractions(num):
 	return arr
 	
 try:
-	print(simple_fractions(int(input())))
+	print(simple_factors(int(input())))
 except (TypeError, ValueError):
 	print("aborted: number not valid")
 input()
